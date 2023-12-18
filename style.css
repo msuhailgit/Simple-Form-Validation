@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #f8f9fa;
+    background-image: url(https://wallpapers.com/images/hd/abstract-background-6m6cjbifu3zpfv84.jpg);
+}
+
+.container {
+    max-width: 400px;
+}
+
+.card {
+    border:none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.card-header {
+    background-color: #ffcc00;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+.btn {
+    background-color: #ffcc00;
+    color: #f8f9fa;
+    padding: 2.5px;
+}
+
+#error-message {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 15px;
+}
